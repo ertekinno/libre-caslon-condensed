@@ -511,8 +511,6 @@ over = -39;
 {
 over = -39;
 pos = -495;
-},
-{
 }
 );
 name = Regular;
@@ -600,8 +598,6 @@ over = -39;
 {
 over = -39;
 pos = -495;
-},
-{
 }
 );
 name = Bold;
@@ -135409,9 +135405,6 @@ type = baseline;
 },
 {
 type = descender;
-},
-{
-type = "italic angle";
 }
 );
 properties = (
