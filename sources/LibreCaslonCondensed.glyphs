@@ -83,18 +83,18 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature frac;
-feature tnum;
-feature ordn;
+code = "feature locl;
+feature subs;
 feature sinf;
 feature sups;
-feature onum;
-feature zero;
-feature locl;
-feature subs;
 feature lnum;
 feature pnum;
+feature tnum;
+feature onum;
 feature case;
+feature frac;
+feature ordn;
+feature zero;
 ";
 tag = aalt;
 },
@@ -225,6 +225,27 @@ sub eight by eightsuperior;
 sub nine by ninesuperior;
 ";
 tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
+sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
+sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+sub one slash three by onethird;
+sub two slash three by twothirds;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
 },
 {
 automatic = 1;
@@ -398,27 +419,6 @@ sub f i by f_i;
 sub f l by f_l;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub one slash eight by oneeighth;
-sub one slash four by onequarter;
-sub three slash eight by threeeighths;
-sub one slash two by onehalf;
-sub five slash eight by fiveeighths;
-sub three slash four by threequarters;
-sub seven slash eight by seveneighths;
-sub one slash three by onethird;
-sub two slash three by twothirds;
-";
-tag = frac;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
-tag = ordn;
 },
 {
 automatic = 1;
@@ -129420,6 +129420,7 @@ width = 245;
 );
 },
 {
+export = 0;
 glyphname = ff;
 layers = (
 {
@@ -129613,6 +129614,7 @@ width = 1270;
 );
 },
 {
+export = 0;
 glyphname = ffi;
 layers = (
 {
@@ -129832,6 +129834,7 @@ width = 1786;
 );
 },
 {
+export = 0;
 glyphname = ffl;
 layers = (
 {
@@ -130045,6 +130048,7 @@ width = 1789;
 );
 },
 {
+export = 0;
 glyphname = st;
 layers = (
 {
