@@ -98080,33 +98080,6 @@ width = 1039;
 );
 },
 {
-glyphname = CR;
-layers = (
-{
-layerId = master01;
-width = 470;
-},
-{
-layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 470;
-}
-);
-unicode = 13;
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = master01;
-width = 0;
-},
-{
-layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 0;
-}
-);
-},
-{
 glyphname = lineseparator;
 layers = (
 {
