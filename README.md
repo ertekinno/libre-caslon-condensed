@@ -39,8 +39,8 @@ pip install -r requirements.txt
 Then run the this command:
 
 ```
-cd source
-gftools builder config.yml
+cd sources
+gftools builder config.yaml
 ```
 
 ## License
